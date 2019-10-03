@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: How to use
 permalink: /about
-comments: true
+comments: false
 ---
 
 <div class="row justify-content-between">
@@ -10,7 +10,13 @@ comments: true
 
 <p>Hey guys what the fuck.</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
+<h4>Infographic #1</h4>
+<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/infographic1.jpg" alt="infographic" /></p>
+
+<h4>Infographic #2</h4>
+<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/infographic2.jpg" alt="infographic" /></p>
+
+
 <h4>Documentation</h4>
 
 <p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
