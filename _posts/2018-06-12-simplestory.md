@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Write Like You Talk"
+title:  "Simpler The Story, Better"
 author: admin
 categories: [ writing ]
 image: assets/images/avatar.png
