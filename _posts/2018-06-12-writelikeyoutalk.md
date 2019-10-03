@@ -4,6 +4,7 @@ title:  "Write Like You Talk"
 author: admin
 categories: [ visual ]
 image: assets/images/avatar.png
+comments: false
 ---
 Here's a simple trick for getting more people to read what you write: write in spoken language.
 
