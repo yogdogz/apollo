@@ -2,8 +2,8 @@
 layout: post
 title:  "Write Like You Talk"
 author: admin
-categories: [ Jekyll, tutorial ]
-image: assets/images/16.jpg
+categories: [ writing ]
+image: assets/images/avatar.png
 ---
 There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
 

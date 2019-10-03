@@ -2,8 +2,8 @@
 layout: post
 title:  "Write Like You Talk"
 author: admin
-categories: [ Jekyll, tutorial ]
-image: assets/images/16.jpg
+categories: [ visual ]
+image: assets/images/avatar.png
 ---
 Here's a simple trick for getting more people to read what you write: write in spoken language.
 

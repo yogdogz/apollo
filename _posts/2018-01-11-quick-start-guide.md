@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Read this first"
-author: sal
-categories: [ Jekyll, tutorial ]
-image: assets/images/12.jpg
+author: admin
+categories: [ writing ]
+image: assets/images/avatar.png
 featured: true
 hidden: true
 ---
