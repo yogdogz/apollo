@@ -15,8 +15,9 @@ permalink: /:title/
 # Authors
 authors:
   sal:
-    name: Admin Kokbisa
-    display_name: Admin Kokbisa
+    name: admin
+    display_name: Kobi
+    avatar: 'assets/images/avatar.png'
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: admin@kokbisa.id
     web: https://kokbisa.id
