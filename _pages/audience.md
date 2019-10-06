@@ -10,26 +10,20 @@ comments: false
 
 <p>Hey guys what the fuck.</p>
 
-<h4>YouTube</h4>
-<iframe src="https://youcount.github.io/e/#!/UCu0yQD7NFMyLu_-TmKa4Hqg" height="100" width="250" frameborder="0"></iframe>
-
-<p>Subscribers: <b>1,780,000</b></p>
+<h4>User</h4>
+<h6>Total user: 2,100,000 audience</h4>
+<p><span class="glyphicon glyphicon-facetime-video"></span> YouTube: <b>1,780,000</b></p>
+<p><span class="glyphicon glyphicon-picture"></span> Instagram: <b>250,000</b></p>
+<p><i class='fas fa-desktop'></i></span> Website: <b>30,000</b></p>
 
 <p>Age</p>
-<div class="progress1">
-  <div class="progress-bar" role="progressbar" aria-valuenow="50"
-  aria-valuemin="0" aria-valuemax="100" style="width:50%">
-    <span class="sr-only">70% Complete</span>
-  </div>
-</div>
-<div class="progress2">
-  <div class="progress-bar" role="progressbar" aria-valuenow="70"
-  aria-valuemin="0" aria-valuemax="100" style="width:70%">
-    <span class="sr-only">70% Complete</span>
-  </div>
-</div>
 
 
+
+
+
+<h4>YouTube</h4>
+<iframe src="https://youcount.github.io/e/#!/UCu0yQD7NFMyLu_-TmKa4Hqg" height="100" width="250" frameborder="0"></iframe>
 
 
 </div>
