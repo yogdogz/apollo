@@ -11,10 +11,10 @@ comments: false
 <p>Hey guys what the fuck.</p>
 
 <h4>User</h4>
-<h6>Total user: 2,100,000 audience</h4>
+<h6>Total user: 2,100,000 audience</h6>
 <p><span class="glyphicon glyphicon-facetime-video"></span> YouTube: <b>1,780,000</b></p>
 <p><span class="glyphicon glyphicon-picture"></span> Instagram: <b>250,000</b></p>
-<p><i class='fas fa-desktop'></i></span> Website: <b>30,000</b></p>
+<p><i class='fas fa-desktop'></i> Website: <b>30,000</b></p>
 
 <p>Age</p>
 
