@@ -16,13 +16,13 @@
 
 //BAR GRAPH FOR AUDIENCE
 
-.graph-cont{
+.graph-cont
   width: calc(100% - 40px);
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 
-.bar{
+.bar
   height: 30px;
   max-width: 800px;
   margin: 0 auto 10px auto;
@@ -31,8 +31,8 @@
   color: white;
   padding: 0 0 0 10px;
   position: relative;
-}
-.bar::before{
+
+.bar::before
   content: '';
   width: 100%;
   position: absolute;
@@ -41,8 +41,8 @@
   top: 0;
   z-index: -2;
   background: #ecf0f1;
-}
-.bar::after{
+
+.bar::after
   content: '';
   background: #ef474b;
   height: 30px;
@@ -54,19 +54,19 @@
   top: 0;
   left: 0;
   z-index: -1;
-}
-.bar1::after{
+
+.bar1::after
   max-width: 13%;
-}
-.bar2::after{
+
+.bar2::after
   max-width: 48%;
-}
-.bar3::after{
+
+.bar3::after
   max-width: 22%;
-}
-.bar4::after{
+
+.bar4::after
   max-width: 13%;
-}
+
 @-webkit-keyframes bar-before{
   0%{
     width: 0px;
@@ -74,11 +74,10 @@
   100%{
     width: 100%;
   }
-}
 
-.how-cont{
+
+.how-cont
   width: calc(100% - 40px);
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-}
