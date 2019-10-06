@@ -19,14 +19,7 @@ comments: false
 
 
 <h4>Who is our audience?</h4>
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 
-<div class="graph-cont">
-  <div class="bar bar1">13-17 -- <b>13%</b></div>
-  <div class="bar bar2">18-24   40%</div>
-  <div class="bar bar3">47%</div>
-  <div class="bar bar4">20%</div>
-</div>
 
 <h4>What kind of content do they like?</h4>
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/topvideos.png" alt="topvideos" /></p>
