@@ -29,11 +29,8 @@ comments: false
 </div>
 
 <h4>What kind of content do they like?</h4>
+<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/topvideos.png" alt="topvideos" /></p>
 
-
-
-<h4>YouTube</h4>
-<iframe src="https://youcount.github.io/e/#!/UCu0yQD7NFMyLu_-TmKa4Hqg" height="100" width="250" frameborder="0"></iframe>
 
 
 </div>
