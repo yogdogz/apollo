@@ -14,18 +14,61 @@
     "starsnonscss"
 ;
 
+//EDITORIAL SCORE 2
+body { margin: 20px 50px; }
+h1 { font-size: 1.5em; }
+p { margin: 0; }
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.ready { font-size: 1.5em; }
+.ui-progressbar-value { background: lightgreen; }
+.progressloading {
+  position: relative;
+  width: 500px;
+}
+
+.progressbar-bar {
+height: 25px;
+margin: 10px 0;
+border-radius: 7px;
+}
+
+.progressbar-label {
+  position: absolute;
+  top: 2px;
+  left: 45%;
+  z-index: 2;
+}
+
+
+//EDITORIAL SCORE
+
+input[type="checkbox"] {
+  height: 15px;
+  width: 15px;
+}
+
+
 //BAR Graph
 
-.graph-cont{
+.graph-age{
   width: calc(100% - 40px);
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
-h1,h2,h3{
-  text-align: center;
-  color: #34495e;
+
+.graph-gender{
+  width: calc(100% - 40px);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
+
 .bar{
   height: 30px;
   max-width: 800px;
@@ -71,6 +114,14 @@ h1,h2,h3{
 .bar4::after{
   max-width: 24%;
 }
+
+.bar5::after{
+  max-width: 77%;
+}
+.bar6::after{
+  max-width: 23%;
+}
+
 @-webkit-keyframes bar-before{
   0%{
     width: 0px;

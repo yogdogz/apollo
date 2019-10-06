@@ -19,12 +19,17 @@ comments: false
 <br>
 
 <h4>Who is our audience?</h4>
-
-<div class="graph-cont">
+<p>By age:</p>
+<div class="graph-age">
   <div class="bar bar1"><b>13-17</b> - School students - 14%</div>
   <div class="bar bar2"><b>18-24</b> - University students - 49%</div>
   <div class="bar bar3"><b>25-34</b> - Professional adult - 25%</div>
   <div class="bar bar4"><b>35+</b> - Etc - 12%</div>
+</div>
+<p>By gender:</p>
+<div class="graph-gender">
+  <div class="bar bar5"><b>Male</b> 77%</div>
+  <div class="bar bar6"><b>Female</b> 13%</div>
 </div>
 
 <br>
