@@ -11,15 +11,23 @@ comments: false
 <p>Hey guys what the fuck.</p>
 
 <h4>How many people follow Kokbisa?</h4>
-<h6>Total user: ±2,100,000 indonesian people</h6>
-<p><i class='fab fa-youtube'></i> YouTube: <b>1,780,000</b> subscribers</p>
-<p><i class='fab fa-instagram'></i> Instagram: <b>250,000</b> followers</p>
+<p><i class='fab fa-youtube'></i> YouTube: <b>1,780,000</b></p>
+<p><i class='fab fa-instagram'></i> Instagram: <b>250,000</b></p>
 <p><i class='fas fa-desktop'></i> Website: <b>15,000</b></p>
+<h6>Total user: ±2,100,000 indonesian people</h6>
 
-
+<br>
 
 <h4>Who is our audience?</h4>
 
+<div class="graph-cont">
+  <div class="bar bar1"><b>13-17</b> - School students - 14%</div>
+  <div class="bar bar2"><b>18-24</b> - University students - 49%</div>
+  <div class="bar bar3"><b>25-34</b> - Professional adult - 25%</div>
+  <div class="bar bar4"><b>35+</b> - Etc - 12%</div>
+</div>
+
+<br>
 
 <h4>What kind of content do they like?</h4>
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/topvideos.png" alt="topvideos" /></p>
@@ -36,7 +44,7 @@ comments: false
 <h5>Total Kokbisa Audience</h5>
 
 <p>Here is the list of Kokbisa's current platform:
-
+<br>
 <a target="_blank" href="https://www.youtube.com/kokbisa" class="btn btn-danger">YouTube</a>
 <a target="_blank" href="https://www.instagram.com/kokbisa" class="btn btn-warning">Instagram</a>
 <a target="_blank" href="https://www.kokbisa.id" class="btn btn-primary">Website</a>
