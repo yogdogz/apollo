@@ -14,16 +14,14 @@
     "starsnonscss"
 ;
 
+//BAR GRAPH FOR AUDIENCE
+
 .graph-cont{
   width: calc(100% - 40px);
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-}
-h1,h2,h3{
-  text-align: center;
-  color: #34495e;
-}
+
 .bar{
   height: 30px;
   max-width: 800px;
@@ -46,7 +44,7 @@ h1,h2,h3{
 }
 .bar::after{
   content: '';
-  background: #2ecc71;
+  background: #ef474b;
   height: 30px;
   transition: 0.7s;
   display: block;
@@ -58,16 +56,16 @@ h1,h2,h3{
   z-index: -1;
 }
 .bar1::after{
-  max-width: 60%;
+  max-width: 13%;
 }
 .bar2::after{
-  max-width: 72%;
+  max-width: 48%;
 }
 .bar3::after{
-  max-width: 47%;
+  max-width: 22%;
 }
 .bar4::after{
-  max-width: 20%;
+  max-width: 13%;
 }
 @-webkit-keyframes bar-before{
   0%{
