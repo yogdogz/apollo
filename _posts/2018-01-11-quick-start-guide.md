@@ -4,7 +4,7 @@ title:  "Read this first"
 author: admin
 categories: [ writing ]
 image: assets/images/avatar.png
-featured: true
+featured: false
 hidden: true
 comments: false
 ---
