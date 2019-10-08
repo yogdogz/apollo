@@ -8,7 +8,7 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Hey guys what the fuck.</p>
+<p>This is the color.</p>
 
 <h4>The Colors</h4>
 <div class="p-3 mb-2 bg-success text-white">#a2cd3a</div>
