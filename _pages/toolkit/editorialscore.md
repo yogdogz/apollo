@@ -19,9 +19,9 @@ comments: false
 <h5>Downside</h5>
 <div class="checkbox">
   <label><input name="progress" class="progress" type="checkbox" value="10"> Does the title contain somewhat positive messages? (-10)</label><br>
-  <label><input name="progress" class="progress" type="checkbox" value="30"> Does the title contain assumptions about people? (-10)</label><br>
-  <label><input name="progress" class="progress" type="checkbox" value="70"> Does the title sound like government campaign? (-10)</label><br>
-  <label><input name="progress" class="progress" type="checkbox" value="100"> Is the answer easily googled by everyone? (-10)</label>
+  <label><input name="progress" class="progress" type="checkbox" value="10"> Does the title contain assumptions about people? (-10)</label><br>
+  <label><input name="progress" class="progress" type="checkbox" value="10"> Does the title sound like government campaign? (-10)</label><br>
+  <label><input name="progress" class="progress" type="checkbox" value="-10"> Is the answer easily googled by everyone? (-10)</label>
 </div>
 <br>
 
