@@ -38,6 +38,9 @@ $(document).ready(function() {
     $(".progressbar-label").text(percentage + "%");
   }
 
+
   countChecked();
   $(":checkbox").click(countChecked);
 });
+
+
