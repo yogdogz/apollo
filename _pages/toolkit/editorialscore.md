@@ -9,6 +9,7 @@ comments: false
 
 
 
+
 <div class="progress">
        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
        </div>
@@ -18,11 +19,16 @@ comments: false
 
 <h5>Downside</h5>
 <div class="checkbox">
-  <label><input name="p10" class="progress" type="checkbox" value="10" onselect="add(p10.value)"> Does the title contain somewhat positive messages? (10)</label><br>
-  <label><input name="p20" class="progress" type="checkbox" value="10" onselect="add(p20.value)"> Does the title contain assumptions about people? (10)</label><br>
-  <label><input name="p30" class="progress" type="checkbox" value="10" onselect="add(p30.value)"> Does the title sound like government campaign? (10)</label><br>
-  <label><input name="p40" class="progress" type="checkbox" value="-10" onselect="add(p40.value)"> Is the answer easily googled by everyone? (-10)</label>
+  <label><input name="p10" class="progress" type="checkbox" id="first" onselect="add(p10.value)"> Does the title contain somewhat positive messages? (10)</label><br>
+  <label><input name="p20" class="progress" type="checkbox" id="second" onselect="add(p20.value)"> Does the title contain assumptions about people? (10)</label><br>
+  <label><input name="p30" class="progress" type="checkbox" id="third" onselect="add(p30.value)"> Does the title sound like government campaign? (10)</label><br>
+  <label><input name="p40" class="progress" type="checkbox" id="fourth" onselect="add(p40.value)"> Is the answer easily googled by everyone? (-10)</label>
 </div>
+
+<script>
+       
+    </script>
+
 <br>
 
 <h5>Upside</h5>

@@ -1,11 +1,40 @@
 $(document).ready(function() {
 
+ $(function() {
+            $('#first').click(() => {
+                let data = !parseInt($('#progress').html(), 10) ? 0 : parseInt($('#progress').html());
+                $('#first').prop('checked') ? 1 : 0;
+                if($('#first').prop('checked')) {
+                    data += 10;
+                } else {
+                    data -= 10;
+                }
+                console.log(data);
+                $('#progress').html(data);
+            })
+
+            $('#second').click(() => {
+                let data = !parseInt($('#progress').html(), 10) ? 0 : parseInt($('#progress').html());
+                $('#second').prop('checked') ? 1 : 0;
+                if($('#second').prop('checked')) {
+                    data += 10;
+                } else {
+                    data -= 10;
+                }
+                console.log(data);
+                $('#progress').html(data);
+            })
+        })
+
+
+
+
 $('input').on('click', function(){
   var valeur = 0;
   $('input:checked').each(function(){
     if ( $(this).attr('value') > valeur )
     {
-        valeur =  $(this).attr('value');
+        valeur =  $('#progress');
        }
   });
   $('.progress-bar').css('width', valeur+'%').attr('aria-valuenow', valeur).html(valeur+'%');
@@ -13,34 +42,5 @@ $('input').on('click', function(){
 });
 
 
-$(document).ready(function() {
-
-  // get box count
-  var count = 0;
-  var checked = 0;
-  function countBoxes() {
-    count = $("input[type='checkbox']").length;
-    console.log(count);
-  }
-
-  countBoxes();
-  $(":checkbox").click(countBoxes);
-
-  // count checks
-
-  function countChecked() {
-    checked = $("input:checked").length;
-
-    var percentage = parseInt(((checked / count) * 100),10);
-    $(".progressbar-bar").progressbar({
-            value: percentage
-        });
-    $(".progressbar-label").text(percentage + "%");
-  }
-
-
-  countChecked();
-  $(":checkbox").click(countChecked);
-});
 
 
