@@ -14,7 +14,7 @@ comments: false
 
 <div class="progress">
        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-        <p>Value: <span id="progress"></span></p>
+        
    </div>
    </div>
 
