@@ -30,9 +30,9 @@ $(document).ready(function() {
 
 
 $('input').on('click', function(){
-  var valeur = 0;
+  var valeur = $('#progress');
   $('input:checked').each(function(){
-    if ( $(this).attr('value') > valeur )
+    if ( $('#progress') > valeur )
     {
         valeur =  $('#progress');
        }
