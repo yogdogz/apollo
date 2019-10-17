@@ -11,7 +11,7 @@ $(document).ready(function() {
                 }
                 console.log(data);
                 $('#progress').html(data);
-            })
+            });
 
             $('#second').click(() => {
                 let data = !parseInt($('#progress').html(), 10) ? 0 : parseInt($('#progress').html());
@@ -23,8 +23,8 @@ $(document).ready(function() {
                 }
                 console.log(data);
                 $('#progress').html(data);
-            })
-        })
+            });
+        });
 
 
 
