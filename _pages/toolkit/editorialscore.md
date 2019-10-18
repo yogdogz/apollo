@@ -6,8 +6,7 @@ comments: false
 ---
 
 <script src="{{ site.baseurl }}/assets/js/editorialscore.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
 
 
 
@@ -21,6 +20,9 @@ comments: false
 <br>
 
 <h5>Downside</h5>
+
+<p>Value: <span id="progress"></span></p>
+
 <div class="checkbox">
   <label><input name="p10" class="progress" type="checkbox" id="first"> Does the title contain somewhat positive messages? (10)</label><br>
   <label><input name="p20" class="progress" type="checkbox" id="second"> Does the title contain assumptions about people? (10)</label><br>
@@ -28,6 +30,9 @@ comments: false
   <label><input name="p40" class="progress" type="checkbox" id="fourth"> Is the answer easily googled by everyone? (-10)</label>
 </div>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
 <script>
         $(function() {
             $('#first').click(() => {
