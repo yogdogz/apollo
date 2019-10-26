@@ -12,7 +12,7 @@ comments: false
 
 
 <div class="progress">
-       <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0">
+       <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
 
    </div>
    </div>
@@ -20,8 +20,6 @@ comments: false
 <br>
 
 <h5>Downside</h5>
-
-<p>Value: <span id="progress"></span></p>
 
 <div class="checkbox">
   <label><input name="p10" class="progress" type="checkbox" value="40"> Does the title contain somewhat positive messages? (10)</label><br>
