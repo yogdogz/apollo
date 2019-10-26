@@ -12,8 +12,16 @@ $(document).ready(function() {
   $(":checkbox").each(function(){
   	maxValue += parseInt($(this).attr('value'));
   });
-  console.log("max value = "+((checked / maxValue)*100));
+  console.log("max value = "+maxValue);
   $('.progress-bar').attr('aria-valuemax',maxValue);
+
+  var perValue = 0;
+  $(":checkbox").each(function(){
+    perValue += parseInt($(this).attr('value'));
+  });
+  console.log("percentage value = "+perValue);
+  $('.progress-bar').attr('aria-valuenow',perValue);
+
 
 
 

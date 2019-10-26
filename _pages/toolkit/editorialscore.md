@@ -22,10 +22,10 @@ comments: false
 <h5>Downside</h5>
 
 <div class="checkbox">
-  <label><input name="p10" class="progress" type="checkbox" value="40"> Does the title contain somewhat positive messages? (10)</label><br>
-  <label><input name="p20" class="progress" type="checkbox" value="-10"> Does the title contain assumptions about people? (10)</label><br>
-  <label><input name="p30" class="progress" type="checkbox" value="20"> Does the title sound like government campaign? (10)</label><br>
-  <label><input name="p40" class="progress" type="checkbox" value="30"> Is the answer easily googled by everyone? (-10)</label>
+  <label><input name="p10" class="progress" type="checkbox" value="40"> Does the title contain somewhat positive messages? (40)</label><br>
+  <label><input name="p20" class="progress" type="checkbox" value="-10"> Does the title contain assumptions about people? (-10)</label><br>
+  <label><input name="p30" class="progress" type="checkbox" value="20"> Does the title sound like government campaign? (20)</label><br>
+  <label><input name="p40" class="progress" type="checkbox" value="30"> Is the answer easily googled by everyone? (30)</label>
 </div>
 
 
@@ -36,11 +36,11 @@ comments: false
 
 <h5>Upside</h5>
 <div class="checkbox">
-  <label><input name="progress" class="progress" type="checkbox" value="-10"> Is there any big 'ternyata' inside the story?</label>
+  <label><input name="progress" class="progress" type="checkbox" value="-10"> Is there any big 'ternyata' inside the story?(-10)</label>
   <br>
-  <label><input name="progress" class="progress" type="checkbox" value="20"> Is it trying to uncover world's grandest mystery? (10)</label><br>
-  <label><input type="checkbox" value="30"> Is the story full of contradictions, fighting and invited people to argue? (10)</label><br>
-  <label><input type="checkbox" value="40"> Is it a question that's always <i>there</i>, but no one has answer to? (10)</label><br>
+  <label><input name="progress" class="progress" type="checkbox" value="20"> Is it trying to uncover world's grandest mystery? (20)</label><br>
+  <label><input type="checkbox" value="30"> Is the story full of contradictions, fighting and invited people to argue? (30)</label><br>
+  <label><input type="checkbox" value="40"> Is it a question that's always <i>there</i>, but no one has answer to? (40)</label><br>
   <label><input type="checkbox" value="10"> Can you tell five more 'ternyata' inside the story? (+10)</label><br>
   <label><input type="checkbox" value="10"> Can it relate directly to human experience? (+10)</label><br>
   <label><input type="checkbox" value="10"> Does the story bring new perspective to people's lives — against society's common opinion? (+10)</label><br>
