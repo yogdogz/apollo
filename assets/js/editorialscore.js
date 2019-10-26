@@ -17,7 +17,7 @@ $(document).ready(function() {
 
   var perValue = 0;
   $(":checkbox").each(function(){
-    perValue += parseInt($(this).attr('value'));
+    perValue += parseInt((($(valeur) / $(maxValue)) * 100),10);
   });
   console.log("percentage value = "+perValue);
   $('.progress-bar').attr('aria-valuenow',perValue);
