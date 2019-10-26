@@ -33,7 +33,7 @@ comments: false
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
-<script>
+<!-- <script>
         $(function() {
             $('#first').click(() => {
                 let data = !parseInt($('#progress').html(), 10) ? 0 : parseInt($('#progress').html());
@@ -75,7 +75,7 @@ $('input').on('click', function(){
 });
 
 
-    </script>
+    </script> -->
 
 <br>
 
