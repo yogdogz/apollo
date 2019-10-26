@@ -12,15 +12,9 @@ $(document).ready(function() {
   $(":checkbox").each(function(){
   	maxValue += parseInt($(this).attr('value'));
   });
-  console.log("max value = "+maxValue);
+  console.log("max value = "+((checked / maxValue)*100);
   $('.progress-bar').attr('aria-valuemax',maxValue);
 
-  var percentage = 0;
-  $(":checkbox").each(function(){
-    percentage = parseInt((checked / maxValue) * 100);
-  });
-  console.log("percentage = "+percentage);
-  $('.progress-bar').attr('aria-valuenow',percentage);
 
 
   /*// get box count
