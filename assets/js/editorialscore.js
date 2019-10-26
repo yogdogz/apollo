@@ -15,6 +15,11 @@ $(document).ready(function() {
   console.log("max value = "+maxValue);
   $('.progress-bar').attr('aria-valuemax',maxValue);
 
+  var percentage = parseInt((checked / maxValue) * 100);
+  console.log("percentage = "+percentage);
+  $('.progress-bar').attr('aria-valuenow',percentage);
+
+
   /*// get box count
   var count = 0;
   var checked = 0;
