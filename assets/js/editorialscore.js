@@ -16,7 +16,7 @@ $(document).ready(function() {
   $('.progress-bar').attr('aria-valuemax',maxValue);
 
   var perValue = 0;
-  $(":checkbox").each(function(){
+  $("input:checked").each(function(){
     perValue = parseInt((($(valeur) / $(maxValue)) * 100),10);
   });
   console.log("percentage value = "+perValue);
