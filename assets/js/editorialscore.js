@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('.progress-bar').css('width', valeur+'%').attr('aria-valuenow', valeur).html(valeur+'%');
   });
 
-  // get box count
+  /*// get box count
   var count = 0;
   var checked = 0;
   function countBoxes() {
@@ -32,5 +32,5 @@ $(document).ready(function() {
 
 
   countChecked();
-  $(":checkbox").click(countChecked);
+  $(":checkbox").click(countChecked);*/
 });
