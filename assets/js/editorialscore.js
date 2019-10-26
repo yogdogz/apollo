@@ -2,6 +2,7 @@ $(document).ready(function() {
   $('input').on('click', function(){
     var valeur = 0;
     $('input:checked').each(function(){
+      console.log("This value : "+parseInt($(this).attr('value')));
       valeur += parseInt($(this).attr('value'));
     });
     $('.progress-bar').css('width', valeur+'%').attr('aria-valuenow', valeur).html(valeur+'%');
