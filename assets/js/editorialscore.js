@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var maxValue = 0;
-  $("input[type='checkbox']").each(function(){
+  $(":checkbox").each(function(){
   	maxValue += parseInt($(this).attr('value'),10);
   });
 
