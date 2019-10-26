@@ -1,11 +1,4 @@
 $(document).ready(function() {
-  var maxValue = 0;
-  $(":checkbox").each(function(){
-  	maxValue += parseInt($(this).attr('value'),10);
-  });
-
-  $('.progress-bar').attr('aria-valuemax',maxValue);
-
   $('input').on('click', function(){
     var valeur = 0;
     $('input:checked').each(function(){

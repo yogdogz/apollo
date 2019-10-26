@@ -38,7 +38,7 @@ comments: false
 
 <h5>Upside</h5>
 <div class="checkbox">
-  <label><input name="progress" class="progress" type="checkbox" value="10"> Is there any big 'ternyata' inside the story?</label>
+  <label><input name="progress" class="progress" type="checkbox" value="-10"> Is there any big 'ternyata' inside the story?</label>
   <br>
   <label><input name="progress" class="progress" type="checkbox" value="20"> Is it trying to uncover world's grandest mystery? (10)</label><br>
   <label><input type="checkbox" value="30"> Is the story full of contradictions, fighting and invited people to argue? (10)</label><br>
