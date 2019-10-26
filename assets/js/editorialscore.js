@@ -12,7 +12,7 @@ $(document).ready(function() {
   $(":checkbox").each(function(){
   	maxValue += parseInt($(this).attr('value'));
   });
-  console.log("max value = "+((checked / maxValue)*100);
+  console.log("max value = "+((checked / maxValue)*100));
   $('.progress-bar').attr('aria-valuemax',maxValue);
 
 
