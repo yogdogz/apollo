@@ -8,6 +8,13 @@ $(document).ready(function() {
     $('.progress-bar').css('width', valeur+'%').attr('aria-valuenow', valeur).html(valeur+'%');
   });
 
+  var maxValue = 0;
+  $(":checkbox").each(function(){
+  	maxValue += parseInt($(this).attr('value'));
+  });
+  console.log("max value = "+maxValue);
+  $('.progress-bar').attr('aria-valuemax',maxValue);
+
   /*// get box count
   var count = 0;
   var checked = 0;
