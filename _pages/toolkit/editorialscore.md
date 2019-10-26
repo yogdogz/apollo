@@ -24,10 +24,10 @@ comments: false
 <p>Value: <span id="progress"></span></p>
 
 <div class="checkbox">
-  <label><input name="p10" class="progress" type="checkbox" id="first"> Does the title contain somewhat positive messages? (10)</label><br>
-  <label><input name="p20" class="progress" type="checkbox" id="second"> Does the title contain assumptions about people? (10)</label><br>
-  <label><input name="p30" class="progress" type="checkbox" id="third"> Does the title sound like government campaign? (10)</label><br>
-  <label><input name="p40" class="progress" type="checkbox" id="fourth"> Is the answer easily googled by everyone? (-10)</label>
+  <label><input name="p10" class="progress" type="checkbox" value="40"> Does the title contain somewhat positive messages? (10)</label><br>
+  <label><input name="p20" class="progress" type="checkbox" value="10"> Does the title contain assumptions about people? (10)</label><br>
+  <label><input name="p30" class="progress" type="checkbox" value="20"> Does the title sound like government campaign? (10)</label><br>
+  <label><input name="p40" class="progress" type="checkbox" value="30"> Is the answer easily googled by everyone? (-10)</label>
 </div>
 
 
