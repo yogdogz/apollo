@@ -1,18 +1,18 @@
 $(document).ready(function() {
-
-$('input').on('click', function(){
-  var valeur = 0;
-  $('input:checked').each(function(){
-  	console.log("Checked value : "+valeur);
-  	console.log("this value : "+parseInt($(this).attr('value'),10));
-    valeur += parseInt($(this).attr('value'),10);
+  var maxValue = 0;
+  $("input[type='checkbox']").each(function(){
+  	maxValue += parseInt($(this).attr('value'),10);
   });
-  $('.progress-bar').css('width', valeur+'%').attr('aria-valuenow', valeur).html(valeur+'%');
-});
-});
 
+  $('.progress-bar').attr('aria-valuemax',maxValue);
 
-$(document).ready(function() {
+  $('input').on('click', function(){
+    var valeur = 0;
+    $('input:checked').each(function(){
+      valeur += parseInt($(this).attr('value'),10);
+    });
+    $('.progress-bar').css('width', valeur+'%').attr('aria-valuenow', valeur).html(valeur+'%');
+  });
 
   // get box count
   var count = 0;
