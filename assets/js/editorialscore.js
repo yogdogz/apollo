@@ -3,6 +3,7 @@ $(document).ready(function() {
 $('input').on('click', function(){
   var valeur = 0;
   $('input:checked').each(function(){
+  	console.log("Checked value : "+valeur);
     valeur += $(this).attr('value');
   });
   $('.progress-bar').css('width', valeur+'%').attr('aria-valuenow', valeur).html(valeur+'%');
