@@ -15,13 +15,6 @@ $(document).ready(function() {
   console.log("max value = "+maxValue);
   $('.progress-bar').attr('aria-valuemax',maxValue);
 
-  var perValue = 0;
-  $("input:checked").each(function(){
-    perValue = parseInt((($(valeur) / $(maxValue)) * 100),10);
-  });
-  console.log("percentage value = "+perValue);
-  $('.progress-bar').attr('aria-valuenow',perValue);
-
 
 
 
